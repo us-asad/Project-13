@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+ <defs>
+  <pattern height="100" width="100" y="0" x="0" patternUnits="userSpaceOnUse" id="gridpattern">
+   <image height="100" width="100" y="0" x="0"/>
+  </pattern>
+ </defs>
+ <g>
+  <title>Layer 1</title>
+  <rect stroke="#000000" transform="rotate(-17.70833396911621 185.9024963378906,29.219253540039077) " stroke-opacity="0" id="svg_1" height="324.218774" width="766" y="-132.890135" x="-197.097498" fill-opacity="0.16" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="#ffffff"/>
+ </g>
+</svg>

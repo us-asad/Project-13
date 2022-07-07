@@ -1,10 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+.nav-item-gradient-bg {
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.1) 0%,
+    rgba(0, 0, 0, 0.04) 15%,
+    rgba(255, 255, 255, 0) 50%,
+    rgba(0, 0, 0, 0.02) 82%,
+    rgba(0, 0, 0, 0.14) 100%
+  );
+  background-color: #f1f1f1;
+  box-shadow: 0px 0px 3px 0px rgb(0 0 0 / 26%);
+}
+
+.nav-item-gradient-bg-before::before {
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.1) 0%,
+    rgba(0, 0, 0, 0.04) 15%,
+    rgba(255, 255, 255, 0) 50%,
+    rgba(0, 0, 0, 0.02) 82%,
+    rgba(0, 0, 0, 0.14) 100%
+  );
+  background-color: #f1f1f1;
+  box-shadow: 0px 0px 3px 0px rgb(0 0 0 / 26%);
+}
+
+.font-oswald {
+  font-family: sans-serif;
+}
+
+.custom-container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.custom-transition {
+  -webkit-transition: all 200ms;
+  -moz-transition: all 200ms;
+  -o-transition: all 200ms;
+  transition: all 200ms;
+}
+
 @media (min-width: 768px) {
+  .font-oswald {
+    font-family: "Oswald", sans-serif;
+  }
+  
   .custom-container {
     width: 750px;
+    padding-right: 15px;
+    padding-left: 15px;
   }
 }
 
