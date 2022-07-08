@@ -20,7 +20,7 @@ export const social = [
 export const nav_items = [
   {
     name: "Bosh sahifa",
-    link: "/"
+    link: "/files"
   },
   {
     name: "5 ta muhim tashabbus",
@@ -28,59 +28,59 @@ export const nav_items = [
     children: [
       {
         name: "Tashshabus One",
-        link: "/"
+        link: "/files"
       },
       {
         name: "Tashshabus Two",
-        link: "/"
+        link: "/files"
       },
       {
         name: "Tashshabus Three",
-        link: "/"
+        link: "/files"
       },
       {
         name: "Tashshabus Four",
-        link: "/"
+        link: "/files"
       },
       {
         name: "Tashshabus Five",
-        link: "/"
+        link: "/files"
       }
     ]
   },
   {
     name: "Ta'lim",
-    link: "/",
+    link: "/files",
     children: [
       {
         name: "Tashshabus One",
-        link: "/"
+        link: "/files"
       },
       {
         name: "Tashshabus Two",
-        link: "/"
+        link: "/files"
       },
       {
         name: "Tashshabus Three",
-        link: "/"
+        link: "/files"
       },
       {
         name: "Tashshabus Four",
-        link: "/"
+        link: "/files"
       },
       {
         name: "Tashshabus Five",
-        link: "/"
+        link: "/files"
       }
     ]
   },
   {
     name: "Support",
-    link: "/",
+    link: "/files",
     children: [
       {
         name: "Tashshabus One",
-        link: "/"
+        link: "/files"
       },
       {
         name: "Tashshabus Two",
@@ -88,41 +88,41 @@ export const nav_items = [
       },
       {
         name: "Tashshabus Three",
-        link: "/"
+        link: "/files"
       },
       {
         name: "Tashshabus Four",
-        link: "/"
+        link: "/files"
       },
       {
         name: "Tashshabus Five",
-        link: "/"
+        link: "/files"
       }
     ]
   },
   {
     name: "Contact",
-    link: "/",
+    link: "/files",
     children: [
       {
         name: "Tashshabus One",
-        link: "/"
+        link: "/files"
       },
       {
         name: "Tashshabus Two",
-        link: "/"
+        link: "/files"
       },
       {
         name: "Tashshabus Three",
-        link: "/"
+        link: "/files"
       },
       {
         name: "Tashshabus Four",
-        link: "/"
+        link: "/files"
       },
       {
         name: "Tashshabus Five",
-        link: "/"
+        link: "/files"
       }
     ]
   },
@@ -154,19 +154,19 @@ export const slider_imgs = [
 export const menu_items = [
   {
     name: "Hujjatlar va qarorlar",
-    link: "/"
+    link: "/files"
   },
   {
     name: "Rahbariyat",
-    link: "/"
+    link: "/files"
   },
   {
     name: "Hududiy bo`limlar",
-    link: "/"
+    link: "/files"
   },
   {
     name: "Tashkilotlar",
-    link: "/"
+    link: "/files"
   },
   {
     name: "Statistika",
@@ -174,23 +174,23 @@ export const menu_items = [
   },
   {
     name: "Ta`lim",
-    link: "/"
+    link: "/files"
   },
   {
     name: "Tashakkurnoma",
-    link: "/"
+    link: "/files"
   },
   {
     name: "Qo`llab-quvvatlash",
-    link: "/"
+    link: "/files"
   },
   {
     name: "O`qituvchilarga",
-    link: "/"
+    link: "/files"
   },
   {
     name: "Matbuot markazi",
-    link: "/"
+    link: "/files"
   }
 ];
 

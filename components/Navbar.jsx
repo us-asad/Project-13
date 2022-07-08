@@ -131,7 +131,7 @@ export default function Navbar() {
                     className="border-l-[3px] border-l-blue-tight border-b border-b-[#bbbbbba3] my-0.5 p-3"
                   >
                     <Link href={item.link}>
-                      <a>{item.name}</a>
+                      <a onClick={() => showMenu(false)}>{item.name}</a>
                     </Link>
                   </li>
                 ))}
