@@ -59,17 +59,6 @@ export default function MainAppsSection() {
           </div>
         </div>
       </div>
-      <div className='bg-blue bg-[url(/small-line.png)] bg-repeat py-[50px]'>
-        <div className='custom-container flex justify-between uppercase text-white'>
-          <div>
-            <h2 className='text-[24px] font-bold'>SAYDAN TO`LIQ FOYDALANISH UCHUN</h2>
-            <p>OLDIN RO`YHATDAN O`TISHINGIZ KERAK.</p>
-          </div>
-          <Link href="/">
-            <a className='p-5 border hover:bg-white hover:text-black duration-200 font-extrabold text-[16px] tracking-wide'>Saytga Kirish</a>
-          </Link>
-        </div>
-      </div>
     </section>
   );
 }

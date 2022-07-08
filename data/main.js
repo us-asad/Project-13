@@ -19,8 +19,12 @@ export const social = [
 
 export const nav_items = [
   {
+    name: "Bosh sahifa",
+    link: "/"
+  },
+  {
     name: "5 ta muhim tashabbus",
-    link: "/",
+    link: "/files",
     children: [
       {
         name: "Tashshabus One",
@@ -194,7 +198,13 @@ export const recent_post = {
   image: "/recent-post.jpg",
   title: "Biz ingliz tilini o'rganamiz",
   content: "Andijon viloyati Marhamat tumani 35-maktabda,Muhtaram Prezidentimiz tomonidan ilgari surilgan g'oyaning,1-tashabbus ijrosini taminlash maqsadida o'quvchi yoshlarni bo'sh vaqtlsrini mazmunli tashkil etish' Yoz o'tmoqda-soz' shiori ostida bolalar yozgi ta'tilni maroqli o'tkazmoqdalar. Unda ingliz to'garak a'zolari faol qatnashmoqdalar va maroqli dam olmoqdalar To'garak rahbari:D.Abdullayeva.",
-  link: "/"
+  slug: "/we_will_learn_english",
+  category: {
+    slug: "lessons",
+    category: {
+      slug: "5_tashabbus"
+    }
+  }
 };
 
 export const sections = [
@@ -251,111 +261,183 @@ export const sections = [
 export const recent_posts = [
   {
     image: "/recent-post.jpg",
-    link: "/",
+    slug: "working",
     title: "We will learn english",
     views: 0,
     time: "09:32:12",
     content: "Andijon viloyati Marhamat tumani 35-maktabda,Muhtaram Prezidentimiz tomonidan ilgari surilgan g'oyaning,1-tashabbus ijrosini taminlash maqsadida o'quvchi yoshlarni bo'sh vaqtlsrini mazmunli tashkil etish'Yoz o'tmoqda-soz' shiori ostida bolalar yozgi ta'tilni maroqli o'tkazmoqdalar. Unda ingliz to'g ...",
-    author: "Toshmat Eshmatov"
+    author: "Toshmat Eshmatov",
+    category: {
+      slug: "lessons",
+      category: {
+        slug: "5_tashabbus"
+      }
+    }
   },
   {
     image: "/recent-post.jpg",
-    link: "/",
+    slug: "learning",
     title: "We will learn english",
     views: 0,
     time: "09:32:12",
     content: "Andijon viloyati Marhamat tumani 35-maktabda,Muhtaram Prezidentimiz tomonidan ilgari surilgan g'oyaning,1-tashabbus ijrosini taminlash maqsadida o'quvchi yoshlarni bo'sh vaqtlsrini mazmunli tashkil etish'Yoz o'tmoqda-soz' shiori ostida bolalar yozgi ta'tilni maroqli o'tkazmoqdalar. Unda ingliz to'g ...",
-    author: "Toshmat Eshmatov"
+    author: "Toshmat Eshmatov",
+    category: {
+      slug: "lessons",
+      category: {
+        slug: "5_tashabbus"
+      }
+    }
   },
   {
     image: "/recent-post.jpg",
-    link: "/",
+    slug: "welcome",
     title: "We will learn english",
     views: 0,
     time: "09:32:12",
     content: "Andijon viloyati Marhamat tumani 35-maktabda,Muhtaram Prezidentimiz tomonidan ilgari surilgan g'oyaning,1-tashabbus ijrosini taminlash maqsadida o'quvchi yoshlarni bo'sh vaqtlsrini mazmunli tashkil etish'Yoz o'tmoqda-soz' shiori ostida bolalar yozgi ta'tilni maroqli o'tkazmoqdalar. Unda ingliz to'g ...",
-    author: "Toshmat Eshmatov"
+    author: "Toshmat Eshmatov",
+    category: {
+      slug: "lessons",
+      category: {
+        slug: "5_tashabbus"
+      }
+    }
   },
   {
     image: "/recent-post.jpg",
-    link: "/",
+    slug: "asd",
     title: "We will learn english",
     views: 0,
     time: "09:32:12",
     content: "Andijon viloyati Marhamat tumani 35-maktabda,Muhtaram Prezidentimiz tomonidan ilgari surilgan g'oyaning,1-tashabbus ijrosini taminlash maqsadida o'quvchi yoshlarni bo'sh vaqtlsrini mazmunli tashkil etish'Yoz o'tmoqda-soz' shiori ostida bolalar yozgi ta'tilni maroqli o'tkazmoqdalar. Unda ingliz to'g ...",
-    author: "Toshmat Eshmatov"
+    author: "Toshmat Eshmatov",
+    category: {
+      slug: "lessons",
+      category: {
+        slug: "5_tashabbus"
+      }
+    }
   },
   {
     image: "/recent-post.jpg",
-    link: "/",
+    slug: "dasasd",
     title: "We will learn english",
     views: 0,
     time: "09:32:12",
     content: "Andijon viloyati Marhamat tumani 35-maktabda,Muhtaram Prezidentimiz tomonidan ilgari surilgan g'oyaning,1-tashabbus ijrosini taminlash maqsadida o'quvchi yoshlarni bo'sh vaqtlsrini mazmunli tashkil etish'Yoz o'tmoqda-soz' shiori ostida bolalar yozgi ta'tilni maroqli o'tkazmoqdalar. Unda ingliz to'g ...",
-    author: "Toshmat Eshmatov"
+    author: "Toshmat Eshmatov",
+    category: {
+      slug: "lessons",
+      category: {
+        slug: "5_tashabbus"
+      }
+    }
   },
   {
     image: "/recent-post.jpg",
-    link: "/",
+    slug: "workewjewiejing",
     title: "We will learn english",
     views: 0,
     time: "09:32:12",
     content: "Andijon viloyati Marhamat tumani 35-maktabda,Muhtaram Prezidentimiz tomonidan ilgari surilgan g'oyaning,1-tashabbus ijrosini taminlash maqsadida o'quvchi yoshlarni bo'sh vaqtlsrini mazmunli tashkil etish'Yoz o'tmoqda-soz' shiori ostida bolalar yozgi ta'tilni maroqli o'tkazmoqdalar. Unda ingliz to'g ...",
-    author: "Toshmat Eshmatov"
+    author: "Toshmat Eshmatov",
+    category: {
+      slug: "lessons",
+      category: {
+        slug: "5_tashabbus"
+      }
+    }
   },
   {
     image: "/recent-post.jpg",
-    link: "/",
+    slug: "aahdb",
     title: "We will learn english",
     views: 0,
     time: "09:32:12",
     content: "Andijon viloyati Marhamat tumani 35-maktabda,Muhtaram Prezidentimiz tomonidan ilgari surilgan g'oyaning,1-tashabbus ijrosini taminlash maqsadida o'quvchi yoshlarni bo'sh vaqtlsrini mazmunli tashkil etish'Yoz o'tmoqda-soz' shiori ostida bolalar yozgi ta'tilni maroqli o'tkazmoqdalar. Unda ingliz to'g ...",
-    author: "Toshmat Eshmatov"
+    author: "Toshmat Eshmatov",
+    category: {
+      slug: "lessons",
+      category: {
+        slug: "5_tashabbus"
+      }
+    }
   },
   {
     image: "/recent-post.jpg",
-    link: "/",
+    slug: "wjwe",
     title: "We will learn english",
     views: 0,
     time: "09:32:12",
     content: "Andijon viloyati Marhamat tumani 35-maktabda,Muhtaram Prezidentimiz tomonidan ilgari surilgan g'oyaning,1-tashabbus ijrosini taminlash maqsadida o'quvchi yoshlarni bo'sh vaqtlsrini mazmunli tashkil etish'Yoz o'tmoqda-soz' shiori ostida bolalar yozgi ta'tilni maroqli o'tkazmoqdalar. Unda ingliz to'g ...",
-    author: "Toshmat Eshmatov"
+    author: "Toshmat Eshmatov",
+    category: {
+      slug: "lessons",
+      category: {
+        slug: "5_tashabbus"
+      }
+    }
   },
   {
     image: "/recent-post.jpg",
-    link: "/",
+    slug: "cdkmckd",
     title: "We will learn english",
     views: 0,
     time: "09:32:12",
     content: "Andijon viloyati Marhamat tumani 35-maktabda,Muhtaram Prezidentimiz tomonidan ilgari surilgan g'oyaning,1-tashabbus ijrosini taminlash maqsadida o'quvchi yoshlarni bo'sh vaqtlsrini mazmunli tashkil etish'Yoz o'tmoqda-soz' shiori ostida bolalar yozgi ta'tilni maroqli o'tkazmoqdalar. Unda ingliz to'g ...",
-    author: "Toshmat Eshmatov"
+    author: "Toshmat Eshmatov",
+    category: {
+      slug: "lessons",
+      category: {
+        slug: "5_tashabbus"
+      }
+    }
   },
   {
     image: "/recent-post.jpg",
-    link: "/",
+    slug: "sdjaksjd",
     title: "We will learn english",
     views: 0,
     time: "09:32:12",
     content: "Andijon viloyati Marhamat tumani 35-maktabda,Muhtaram Prezidentimiz tomonidan ilgari surilgan g'oyaning,1-tashabbus ijrosini taminlash maqsadida o'quvchi yoshlarni bo'sh vaqtlsrini mazmunli tashkil etish'Yoz o'tmoqda-soz' shiori ostida bolalar yozgi ta'tilni maroqli o'tkazmoqdalar. Unda ingliz to'g ...",
-    author: "Toshmat Eshmatov"
+    author: "Toshmat Eshmatov",
+    category: {
+      slug: "lessons",
+      category: {
+        slug: "5_tashabbus"
+      }
+    }
   },
   {
     image: "/recent-post.jpg",
-    link: "/",
+    slug: "ldjwkjjew",
     title: "We will learn english",
     views: 0,
     time: "09:32:12",
     content: "Andijon viloyati Marhamat tumani 35-maktabda,Muhtaram Prezidentimiz tomonidan ilgari surilgan g'oyaning,1-tashabbus ijrosini taminlash maqsadida o'quvchi yoshlarni bo'sh vaqtlsrini mazmunli tashkil etish'Yoz o'tmoqda-soz' shiori ostida bolalar yozgi ta'tilni maroqli o'tkazmoqdalar. Unda ingliz to'g ...",
-    author: "Toshmat Eshmatov"
+    author: "Toshmat Eshmatov",
+    category: {
+      slug: "lessons",
+      category: {
+        slug: "5_tashabbus"
+      }
+    }
   },
   {
     image: "/recent-post.jpg",
-    link: "/",
+    slug: "asldjaskdjajsd",
     title: "We will learn english",
     views: 0,
     time: "09:32:12",
     content: "Andijon viloyati Marhamat tumani 35-maktabda,Muhtaram Prezidentimiz tomonidan ilgari surilgan g'oyaning,1-tashabbus ijrosini taminlash maqsadida o'quvchi yoshlarni bo'sh vaqtlsrini mazmunli tashkil etish'Yoz o'tmoqda-soz' shiori ostida bolalar yozgi ta'tilni maroqli o'tkazmoqdalar. Unda ingliz to'g ...",
-    author: "Toshmat Eshmatov"
+    author: "Toshmat Eshmatov",
+    category: {
+      slug: "lessons",
+      category: {
+        slug: "5_tashabbus"
+      }
+    }
   }
 ];
 
@@ -372,10 +454,6 @@ export const additional_sections = [
     name: "Statistika",
     link: "/"
   },
-  {
-    name: "Saytga kirish",
-    link: "/"
-  }
 ];
 
 export const active_sections = [
@@ -549,5 +627,419 @@ export const footer_bottom_links = [
     name: "Ovozli qo`lanmalar",
     link: "/"
   }
-]
+];
+
+export const categories = [
+  {
+    name: "Oqituvchilarga",
+    slug: "oqtuvchilarga",
+    image: "/default-category.png",
+    subcategories: [
+      {
+        name: "Dars ishlanmalar",
+        slug: "lessons",
+        image: "/default-category.png",
+        posts: recent_posts
+      },
+      {
+        name: "Bog'dorchilik",
+        slug: "gardenning",
+        image: "/default-category.png",
+        posts: recent_posts
+      },
+      {
+        name: "Chorvachilik",
+        slug: "ship",
+        image: "/default-category.png",
+        posts: recent_posts
+      },
+      {
+        name: "Talimda o'zgarishlar",
+        slug: "education",
+        image: "/default-category.png",
+        posts: recent_posts
+      },
+      {
+        name: "Hasharlar",
+        slug: "works",
+        image: "/default-category.png",
+        posts: recent_posts
+      },
+      {
+        name: "Maktabdagi o'zgarishlar",
+        slug: "school_changes",
+        image: "/default-category.png",
+        posts: recent_posts
+      }
+    ]
+  },
+  {
+    name: "5 ta muhim tashabussga marhamat",
+    slug: "5_tashabbus",
+    image: "/default-category.png",
+    subcategories: [
+      {
+        name: "Dars ishlanmalar",
+        slug: "lessons",
+        image: "/default-category.png",
+        posts: recent_posts
+      },
+      {
+        name: "Bog'dorchilik",
+        slug: "gardenning",
+        image: "/default-category.png",
+        posts: recent_posts
+      },
+      {
+        name: "Chorvachilik",
+        slug: "ship",
+        image: "/default-category.png",
+        posts: recent_posts
+      },
+      {
+        name: "Talimda o'zgarishlar",
+        slug: "education",
+        image: "/default-category.png",
+        posts: recent_posts
+      },
+      {
+        name: "Hasharlar",
+        slug: "works",
+        image: "/default-category.png",
+        posts: recent_posts
+      },
+      {
+        name: "Maktabdagi o'zgarishlar",
+        slug: "school_changes",
+        image: "/default-category.png",
+        posts: recent_posts
+      }
+    ]
+  },
+  {
+    name: "Qo'llab quvvatlash haqida",
+    slug: "qollab_quvvatlash",
+    image: "/default-category.png",
+    subcategories: [
+      {
+        name: "Dars ishlanmalar",
+        slug: "lessons",
+        image: "/default-category.png",
+        posts: recent_posts
+      },
+      {
+        name: "Bog'dorchilik",
+        slug: "gardenning",
+        image: "/default-category.png",
+        posts: recent_posts
+      },
+      {
+        name: "Chorvachilik",
+        slug: "ship",
+        image: "/default-category.png",
+        posts: recent_posts
+      },
+      {
+        name: "Talimda o'zgarishlar",
+        slug: "education",
+        image: "/default-category.png",
+        posts: recent_posts
+      },
+      {
+        name: "Hasharlar",
+        slug: "works",
+        image: "/default-category.png",
+        posts: recent_posts
+      },
+      {
+        name: "Maktabdagi o'zgarishlar",
+        slug: "school_changes",
+        image: "/default-category.png",
+        posts: recent_posts
+      }
+    ]
+  },
+  {
+    name: "Ta'lim",
+    slug: "talim",
+    image: "/default-category.png",
+    subcategories: [
+      {
+        name: "Dars ishlanmalar",
+        slug: "lessons",
+        image: "/default-category.png",
+        posts: recent_posts
+      },
+      {
+        name: "Bog'dorchilik",
+        slug: "gardenning",
+        image: "/default-category.png",
+        posts: recent_posts
+      },
+      {
+        name: "Chorvachilik",
+        slug: "ship",
+        image: "/default-category.png",
+        posts: recent_posts
+      },
+      {
+        name: "Talimda o'zgarishlar",
+        slug: "education",
+        image: "/default-category.png",
+        posts: recent_posts
+      },
+      {
+        name: "Hasharlar",
+        slug: "works",
+        image: "/default-category.png",
+        posts: recent_posts
+      },
+      {
+        name: "Maktabdagi o'zgarishlar",
+        slug: "school_changes",
+        image: "/default-category.png",
+        posts: recent_posts
+      }
+    ]
+  },
+  {
+    name: "Matbuot markazi",
+    slug: "matbuot",
+    image: "/default-category.png",
+    subcategories: [
+      {
+        name: "Dars ishlanmalar",
+        slug: "lessons",
+        image: "/default-category.png",
+        posts: recent_posts
+      },
+      {
+        name: "Bog'dorchilik",
+        slug: "gardenning",
+        image: "/default-category.png",
+        posts: recent_posts
+      },
+      {
+        name: "Chorvachilik",
+        slug: "ship",
+        image: "/default-category.png",
+        posts: recent_posts
+      },
+      {
+        name: "Talimda o'zgarishlar",
+        slug: "education",
+        image: "/default-category.png",
+        posts: recent_posts
+      },
+      {
+        name: "Hasharlar",
+        slug: "works",
+        image: "/default-category.png",
+        posts: recent_posts
+      },
+      {
+        name: "Maktabdagi o'zgarishlar",
+        slug: "school_changes",
+        image: "/default-category.png",
+        posts: recent_posts
+      }
+    ]
+  },
+  {
+    name: "Atoqli kunlar",
+    slug: "atoqli_kunlar",
+    image: "/default-category.png",
+    subcategories: [
+      {
+        name: "Dars ishlanmalar",
+        slug: "lessons",
+        image: "/default-category.png",
+        posts: recent_posts
+      },
+      {
+        name: "Bog'dorchilik",
+        slug: "gardenning",
+        image: "/default-category.png",
+        posts: recent_posts
+      },
+      {
+        name: "Chorvachilik",
+        slug: "ship",
+        image: "/default-category.png",
+        posts: recent_posts
+      },
+      {
+        name: "Talimda o'zgarishlar",
+        slug: "education",
+        image: "/default-category.png",
+        posts: recent_posts
+      },
+      {
+        name: "Hasharlar",
+        slug: "works",
+        image: "/default-category.png",
+        posts: recent_posts
+      },
+      {
+        name: "Maktabdagi o'zgarishlar",
+        slug: "school_changes",
+        image: "/default-category.png",
+        posts: recent_posts
+      }
+    ]
+  },
+  {
+    name: "Fan oyligi",
+    slug: "fan_oyligi",
+    image: "/default-category.png",
+    subcategories: [
+      {
+        name: "Dars ishlanmalar",
+        slug: "lessons",
+        image: "/default-category.png",
+        posts: recent_posts
+      },
+      {
+        name: "Bog'dorchilik",
+        slug: "gardenning",
+        image: "/default-category.png",
+        posts: recent_posts
+      },
+      {
+        name: "Chorvachilik",
+        slug: "ship",
+        image: "/default-category.png",
+        posts: recent_posts
+      },
+      {
+        name: "Talimda o'zgarishlar",
+        slug: "education",
+        image: "/default-category.png",
+        posts: recent_posts
+      },
+      {
+        name: "Hasharlar",
+        slug: "works",
+        image: "/default-category.png",
+        posts: recent_posts
+      },
+      {
+        name: "Maktabdagi o'zgarishlar",
+        slug: "school_changes",
+        image: "/default-category.png",
+        posts: recent_posts
+      }
+    ]
+  }
+];
+
+export const regions = [
+  {
+    name: "Jalaquduq tuman",
+    id: 323,
+    num: 27383,
+    schools: [
+      {
+        name: "6 - maktab",
+        id: 2,
+        num: 432
+      },
+      {
+        name: "4 - maktab",
+        id: 5,
+        num: 4322
+      },
+      {
+        name: "1 - maktab",
+        id: 3,
+        num: 232
+      },
+      {
+        name: "9 - maktab",
+        id: 42,
+        num: 43
+      },
+      {
+        name: "92 - maktab",
+        id: 432,
+        num: 5435
+      }
+    ]
+  },
+  {
+    name: "Oltinko`l tuman",
+    id: 321,
+    num: 83,
+    schools: [
+      {
+        name: "6 - maktab",
+        id: 2,
+        num: 432
+      },
+      {
+        name: "4 - maktab",
+        id: 5,
+        num: 4322
+      },
+      {
+        name: "1 - maktab",
+        id: 3,
+        num: 232
+      },
+      {
+        name: "9 - maktab",
+        id: 42,
+        num: 43
+      },
+      {
+        name: "92 - maktab",
+        id: 432,
+        num: 5435
+      }
+    ]
+  },
+  {
+    name: "Hello tuman",
+    id: 322,
+    num: 324,
+    schools: [
+      {
+        name: "6 - maktab",
+        id: 2,
+        num: 432
+      },
+      {
+        name: "4 - maktab",
+        id: 5,
+        num: 4322
+      },
+      {
+        name: "1 - maktab",
+        id: 3,
+        num: 232
+      },
+      {
+        name: "9 - maktab",
+        id: 42,
+        num: 43
+      },
+      {
+        name: "92 - maktab",
+        id: 432,
+        num: 5435
+      }
+    ]
+  }
+];
+
+export const post = {
+  file: {
+    type: "video",
+    url: "/default-video.mp4",
+  },
+  title: "We Will Learn English!",
+  content: "Andijon viloyati Jalaquduq tumani 2-umumta'lim maktabida o'quvchilar o'rtasida davomat,kiyinish madaniyati, jinoyatchilik va huquqbuzarliklarni ,diniy ekstremizmni oldini olish kabi masalalar yuzasidan yig'ilish o'tkazildi. Yig'ilishga tuman T va EQKB xodimlari N.Ergashev , R.To'ychiyev va psixolog inspektor A.Xasanovlar tashrif buyurdilar.",
+  date: "9 Apr 2022" 
+}
+
 

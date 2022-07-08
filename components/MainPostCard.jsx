@@ -3,6 +3,8 @@ import Link from 'next/link'
 import React from 'react'
 
 export default function MainPostCard() {
+  const postLink = `/files/${recent_post.category.category.slug}/${recent_post.category.slug}/${recent_post.slug}`;
+
   return (
     <article className='grid grid-cols-9'>
       <div className='hidden lg:flex col-span-1 flex-col items-center h-max relative after:absolute after:top-[28px] after:left-0 after:w-[17px] after:h-[1px] after:bg-[#00000026] before:absolute before:top-[28px] before:right-0 before:w-[17px] before:h-[1px] before:bg-[#00000026]'>
@@ -25,11 +27,11 @@ export default function MainPostCard() {
           </div>
         </div>
         <div className='lg:p-[15px] lg:pt-5 py-2 text-[#888] lg:text-black'>
-          <Link href={recent_post.link}>
+          <Link href={postLink}>
             <a className='duration-300 group-hover:text-blue text-[20px] font-bold lg:font-normal lg:text-[23px] block mb-[4px] lg:mb-[15px]'>{recent_post.title}</a>
           </Link>
           <p className='text-[17px]'>{recent_post.content}</p>
-          <Link href={recent_post.link}>
+          <Link href={postLink}>
             <a className='uppercase font-serif py-[10px] px-[15px] bg-blue duration-300 hover:bg-[#1689d0] w-full mt-[10px] block text-center text-[14px] text-white'>batafsil o&apos;qish</a>
           </Link>
         </div>

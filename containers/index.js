@@ -5,3 +5,6 @@ export { default as MainAppsSection } from "./MainAppsSection.jsx";
 export { default as SideBar } from "./SideBar.jsx";
 export { default as MainLinksSection } from "./MainLinksSection.jsx";
 export { default as Footer } from "./Footer.jsx";
+export { default as CategoryWrapper } from "./CategoryWrapper.jsx";
+export { default as PageWrapper } from "./PageWrapper.jsx";
+export { default as PostsContainer } from "./PostsContainer.jsx";

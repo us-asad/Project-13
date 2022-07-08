@@ -46,7 +46,7 @@ export default function Footer() {
                       className='group h-[30px] bg-[#0b0b0b] flex items-center'
                     >
                       <span
-                        className='h-full w-[30px] grid place-content-center overflow-hidden'
+                        className='h-full w-[30px] grid place-content-center overflow-hidden text-white'
                         style={{ background: item.color }}
                       >
                         {{

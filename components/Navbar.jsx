@@ -34,7 +34,7 @@ export default function Navbar() {
   return (
     <>
       {/* DESKTOP */}
-      <nav className={`hidden lg:block before:bg-[#f3f3f3] pt-[27px] relative z-[8] before:h-[45px] before:absolute before:left-0 before:t-[28px] before:w-full before:border-y before:border-[#0000000f] ${scrollY > changeNum && "before:hidden w-full !p-0 !fixed top-0 left-0 z-40 border-b !h-[52px] bg-white"}`}>
+      <nav className={`hidden lg:block before:bg-[#f3f3f3] pt-[27px] relative z-[50] before:h-[45px] before:absolute before:left-0 before:t-[28px] before:w-full before:border-y before:border-[#0000000f] ${scrollY > changeNum && "before:hidden w-full !p-0 !fixed top-0 left-0 z-40 border-b !h-[52px] bg-white"}`}>
         <div className='custom-container flex justify-between'>
           <div className={`pr-[30px] pl-[20px] mt-[-27px] relative min-w-[200px] max-h-[77px] text-center ${beforeItemClassNames} before:bottom-[1px] before:-right-[6px] ${scrollY < changeNum ? "skew-x-[25deg] nav-item-gradient-bg" : "before:hidden !mt-0"}`}>
             <Link href="/">
@@ -60,22 +60,24 @@ export default function Navbar() {
                       className={`px-[15px] custom flex items-center h-full justify-center relative before:transition-all before:duration-200 nav-item-gradient-bg-before before:absolute before:w-full before:z-[-1] before:bottom-[-3px] before:h-[51px] before:skew-x-[25deg] ${scrollY > changeNum && "before:hidden "}`}
                     >
                       {item.name}
-                      <BiChevronDown className='ml-[4px] transition duration-200' />
+                      {item?.children?.length && <BiChevronDown className='ml-[4px] transition duration-200' />}
                     </span>
                   </a>
                 </Link>
-                <ol className='bg-white duration-300 left-[15px] absolute min-w-[220px] top-[110%] z-10 opacity-0 pointer-events-none group-hover:top-full group-hover:opacity-100 group-hover:pointer-events-auto'>
-                  {item.children.map((subItem, i) => (
-                    <li
-                      key={i}
-                      className="duration-400 py-[13px] px-[15px] bg-[#0000000f] border-[#0000001a] border text-[14px] font-medium"
-                    >
-                      <Link href={subItem.link}>
-                        <a className='min-w-ful hover:pl-2 duration-300'>{subItem.name}</a>
-                      </Link>
-                    </li>
-                  ))}
-                </ol>
+                {item?.children?.length && (
+                  <ol className='bg-white duration-300 left-[15px] absolute min-w-[220px] top-[110%] z-10 opacity-0 pointer-events-none group-hover:top-full group-hover:opacity-100 group-hover:pointer-events-auto'>
+                    {item.children.map((subItem, i) => (
+                      <li
+                        key={i}
+                        className="duration-400 py-[13px] px-[15px] bg-[#0000000f] border-[#0000001a] border text-[14px] font-medium"
+                      >
+                        <Link href={subItem.link}>
+                          <a className='min-w-ful hover:pl-2 duration-300'>{subItem.name}</a>
+                        </Link>
+                      </li>
+                    ))}
+                  </ol>
+                )}
               </li>
             ))}
             <li className={`group pb-[26px] relative text-[14px] h-[70px] ml-3 cursor-pointer ${scrollY > changeNum && "!p-0 h-[52px]"}`}>
@@ -103,7 +105,7 @@ export default function Navbar() {
       </nav>
       {/* MOBILE */}
       <div className='block lg:hidden mb-[48px] w-full'>
-        <nav className='fixed top-0 left-0 z-[8] w-full bg-blue mx-auto h-[48px]'>
+        <nav className='fixed top-0 left-0 z-[50] w-full bg-blue mx-auto h-[48px]'>
           <div className='max-w-[765px] border-x border-white text-white h-full justify-between flex items-center mx-auto '>
             <Link href="/">
               <a className='px-3'>
@@ -122,10 +124,6 @@ export default function Navbar() {
               className={`fixed z-[9] bottom-0 overflow-y-auto w-[80%] duration-200 bg-white ${openMenu ? "right-0" : "right-[-100%]"}`}
               style={{ height: "calc(100vh - 48px)" }}
             >
-              <button className='px-4 py-[6px] uppercase w-full flex items-center bg-blue-tight'>
-                <span className='w-full text-center'>Saytga Kirish</span>
-                <HiArrowRight />
-              </button>
               <ul className='text-black text-[12.6px]'>
                 {menu_items.map((item, i) => (
                   <li
@@ -138,8 +136,6 @@ export default function Navbar() {
                   </li>
                 ))}
               </ul>
-              <p className='text-[#837977] text-[15px] p-[5px] font-semibold pl-4'>Qadamlar Soni:</p>
-              <p className='text-[#837977] text-[15px] p-[5px] font-semibold pl-4'>ID:</p>
             </aside>
           </div>
         </nav>

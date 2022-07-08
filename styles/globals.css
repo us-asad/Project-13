@@ -30,8 +30,19 @@
   box-shadow: 0px 0px 3px 0px rgb(0 0 0 / 26%);
 }
 
+.line-clamp-1 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+}
+
 .font-oswald {
   font-family: sans-serif;
+}
+
+.show-image-overflow span {
+  overflow: visible !important;
 }
 
 .custom-container {

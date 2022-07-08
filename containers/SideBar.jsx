@@ -2,17 +2,20 @@ import { active_sections, additional_sections, recent_posts, useful_websites } f
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
-import { BsEyeFill } from 'react-icons/bs'
 import { FaEye } from 'react-icons/fa'
+import { SideBarSectionTitle } from 'subcomponents'
 
-export default function SideBar() {
+export default function SideBar({ children, responsiveHidden }) {
   return (
     <aside
-      className="hidden lg:block w-full py-[80px] relative text-[#333] after:absolute after:w-[500%] after:h-full after:top-0 after:shadow-1 after:bg-[#f7f7f7]"
+      className={`w-full py-[80px] relative text-[#333] after:hidden lg:after:block after:absolute after:w-[500%] after:h-full after:top-0 after:shadow-1 after:bg-[#f7f7f7] ${responsiveHidden && "hidden lg:block"}`}
     >
       <ul className='relative z-10'>
-        <li className='mb-[40px]'>
-          <h4 className='-ml-1 mb-[20px] py-[12px] px-4 bg-white text-[17px] uppercase font-oswald font-normal'>DAVLAT <span className='text-blue'>RAMZLARI</span></h4>
+        {children && <li className='mb-10'>
+          {children}
+        </li>}
+        <li className='mb-10'>
+          <SideBarSectionTitle title1="davlat" title2="RAMZLARI" />
           <ol className='px-[20px] divide-y-2 divide-gray-200'>
             <li className='w-full flex justify-around items-center'>
               <Link href="/">
@@ -55,20 +58,20 @@ export default function SideBar() {
             ))}
           </ol>
         </li>
-        <li className='mb-[40px]'>
-          <h4 className='-ml-1 mb-[20px] py-[12px] px-4 bg-white text-[17px] uppercase font-oswald font-normal'>Oxirgi <span className='text-blue'>Yuklamalar</span></h4>
+        <li className='mb-10'>
+          <SideBarSectionTitle title1="oxirgi" title2="yuklamalar" />
           <ol className='px-[20px] divide-y-2 divide-gray-200'>
             {recent_posts.map((post, i) => (
               <li key={i} className="py-[15px]">
-                <Link href={post.link}>
-                  <a className='flex space-x-[10px] text-[#333]'>
+                <Link href={`/files/${post.category?.category.slug}/${post.category.slug}/${post.slug}`}>
+                  <a className='group flex space-x-[10px] text-[#333]'>
                     <Image
                       src={post.image}
                       alt={post.title}
                       width={55}
                       height={55}
                     />
-                    <div>
+                    <div className='group-hover:text-blue duration-200'>
                       <h5 className='text-[13px] mb-[10px]'>{post.title}</h5>
                       <div className='text-[11px] flex space-x-3'>
                         <span>{post.time}</span>
@@ -84,8 +87,8 @@ export default function SideBar() {
             ))}
           </ol>
         </li>
-        <li className='mb-[40px]'>
-          <h4 className='-ml-1 mb-[20px] py-[12px] px-4 bg-white text-[17px] uppercase font-oswald font-normal'>Oxirgi <span className='text-blue'>Yuklamalar</span></h4>
+        <li className='mb-10'>
+          <SideBarSectionTitle title1="faol" title2="bo'limlar" />
           <ol className='px-[20px] divide-y-2 divide-gray-200'>
             {active_sections.map((section, i) => (
               <li key={i} className="py-[10px] text-[14px] font-medium flex justify-between">
@@ -97,8 +100,8 @@ export default function SideBar() {
             ))}
           </ol>
         </li>
-        <li className='mb-[40px]'>
-          <h4 className='-ml-1 mb-[20px] py-[12px] px-4 bg-white text-[17px] uppercase font-oswald font-normal'><span className='text-blue'>Foydali</span> Saytlar</h4>
+        <li className='mb-10'>
+          <SideBarSectionTitle title1="Foydali" title2="Saytlar" />
           <ol className='px-[20px] items-center flex flex-wrap'>
             {useful_websites.map(website => (
               <li key={website}>

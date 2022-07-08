@@ -12,7 +12,7 @@ import PostCard from 'components/PostCard'
 
 export default function MainPostsSection() {
   return (
-    <div className='grid grid-cols-4 custom-container'>
+    <section className='grid grid-cols-4 custom-container'>
       <div className='col-span-4 lg:col-span-3 lg:px-[15px] px-1 lg:pt-[80px] pt-[20px]'>
         <div className='border-dashed lg:border-b lg:border-l border-[#c9c9c9] px-[15px] lg:px-0 pb-10'>
           <MainPostCard />
@@ -51,7 +51,7 @@ export default function MainPostsSection() {
                 />
               </div>
               <div className='absolute top-0 left-0 w-full h-full opacity-0 bg-[#000000a2] group-hover:opacity-100 duration-300 overflow-hidden'>
-                <Link href={post.link}>
+                <Link href={`/files/${post.category?.category.slug}/${post.category.slug}/${post.slug}`}>
                   <a className='px-5 py-[15px] bg-white text-black hover:text-blue text-[14px] absolute top-[43%] -left-full group-hover:left-0 duration-300'>
                     <BiLink />
                   </a>
@@ -59,7 +59,7 @@ export default function MainPostsSection() {
                 <button className='px-5 py-[15px] bg-blue text-white text-[14px] absolute top-[43%] -right-full group-hover:right-0 duration-300'>
                   <FaSearchPlus />
                 </button>
-                <Link href={post.link}>
+                <Link href={`/files/${post.category?.category.slug}/${post.category.slug}/${post.slug}`}>
                   <a className='text-[17px] absolute -bottom-full group-hover:bottom-2 duration-300 w-full text-center'>{post.title}</a>
                 </Link>
               </div>
@@ -71,8 +71,8 @@ export default function MainPostsSection() {
         </div>
       </div>
       <div className='col-span-1'>
-        <SideBar />
+        <SideBar responsiveHidden />
       </div>
-    </div>
+    </section>
   )
 }
