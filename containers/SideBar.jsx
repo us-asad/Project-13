@@ -8,7 +8,7 @@ import { SideBarSectionTitle } from 'subcomponents'
 export default function SideBar({ children, responsiveHidden }) {
   return (
     <aside
-      className={`w-full py-[80px] relative text-[#333] after:hidden lg:after:block after:absolute after:w-[500%] after:h-full after:top-0 after:shadow-1 after:bg-[#f7f7f7] ${responsiveHidden && "hidden lg:block"}`}
+      className={`w-full h-full py-[80px] relative text-[#333] after:hidden lg:after:block after:absolute after:w-[500%] after:h-full after:top-0 after:shadow-1 after:bg-[#f7f7f7] ${responsiveHidden && "hidden lg:block"}`}
     >
       <ul className='relative z-10'>
         {children && <li className='mb-10'>
@@ -18,7 +18,7 @@ export default function SideBar({ children, responsiveHidden }) {
           <SideBarSectionTitle title1="davlat" title2="RAMZLARI" />
           <ol className='px-[20px] divide-y-2 divide-gray-200'>
             <li className='w-full flex justify-around items-center'>
-              <Link href="/">
+              <Link href="/user/flag">
                 <a>
                   <Image
                     src="/flag.png"
@@ -28,20 +28,20 @@ export default function SideBar({ children, responsiveHidden }) {
                   />
                 </a>
               </Link>
-              <Link href="/">
+              <Link href="/user/emblem">
                 <a>
                   <Image
-                    src="/gerb.png"
+                    src="/emblem.png"
                     alt="Uzbekistan Gerb"
                     width={44}
                     height={44}
                   />
                 </a>
               </Link>
-              <Link href="/">
+              <Link href="/user/hymn">
                 <a>
                   <Image
-                    src="/gimn.png"
+                    src="/hymn.png"
                     alt="Uzbekistan Madhiya"
                     width={52}
                     height={32}

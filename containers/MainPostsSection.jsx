@@ -1,5 +1,5 @@
 import { MainPostCard } from 'components'
-import { recent_posts, sections } from 'data/main'
+import { categories, recent_posts, sections } from 'data/main'
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
@@ -19,16 +19,15 @@ export default function MainPostsSection() {
         </div>
         <SectionTitle title1="DASTUR" title2="YO`NALISHLARI" subtitle="TA`LIMGA OID DASTURLAR KO`RSATMALARI" />
         <ul className='grid grid-cols-12 gap-0.5 border-b border-gray-300 pb-[50px]'>
-          {sections.map((section, i) => (
+          {categories.map((category, i) => (
             <li
-              className='col-span-12 md:col-span-6 lg:col-span-3 text-white bg-no-repeat bg-cover w-full mb-10 lg:mb-0'
-              style={{ backgroundImage: `url(${section.image})` }}
+              className='col-span-12 md:col-span-6 bg-[url(/section.jpg)] lg:col-span-3 text-white bg-no-repeat bg-cover w-full mb-10 lg:mb-0'
               key={i}
             >
-              <div className='bg-[#00000099] p-10 text-center'>
+              <div className='p-10 text-center bg-[#00000099] h-full'>
                 <SiGridsome className='hidden md:block text-[30px] mx-auto text-white' />
-                <p className='text-[13px] mb-[10px] md:mb-[30px] mt-2.5 font-semibold md:font-normal font-oswald'>{section.name}</p>
-                <Link href={section.link}>
+                <p className='text-[13px] mb-[10px] md:mb-[30px] mt-2.5 font-semibold md:font-normal font-oswald'>{category.name}</p>
+                <Link href={`/files/${category.slug}`}>
                   <a className='uppercase text-[10px] p-[6px] border border-white font-bold'>Batafsil</a>
                 </Link>
               </div>

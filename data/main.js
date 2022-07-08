@@ -170,7 +170,7 @@ export const menu_items = [
   },
   {
     name: "Statistika",
-    link: "/"
+    link: "/statistics"
   },
   {
     name: "Ta`lim",
@@ -198,7 +198,7 @@ export const recent_post = {
   image: "/recent-post.jpg",
   title: "Biz ingliz tilini o'rganamiz",
   content: "Andijon viloyati Marhamat tumani 35-maktabda,Muhtaram Prezidentimiz tomonidan ilgari surilgan g'oyaning,1-tashabbus ijrosini taminlash maqsadida o'quvchi yoshlarni bo'sh vaqtlsrini mazmunli tashkil etish' Yoz o'tmoqda-soz' shiori ostida bolalar yozgi ta'tilni maroqli o'tkazmoqdalar. Unda ingliz to'garak a'zolari faol qatnashmoqdalar va maroqli dam olmoqdalar To'garak rahbari:D.Abdullayeva.",
-  slug: "/we_will_learn_english",
+  slug: "we_will_learn_english",
   category: {
     slug: "lessons",
     category: {
@@ -444,15 +444,15 @@ export const recent_posts = [
 export const additional_sections = [
   {
     name: "Tumanlar haqida",
-    link: "/"
+    link: "/region"
   },
   {
     name: "Maktablar haqida",
-    link: "/"
+    link: "/schools"
   },
   {
     name: "Statistika",
-    link: "/"
+    link: "/statistics"
   },
 ];
 
