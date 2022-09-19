@@ -114,8 +114,8 @@ export default function Footer() {
               </form>
             </div>
           </div>
-          <div className='bg-black md:bg-transparent lg:py-8 py-5 flex flex-col-reverse lg:flex-row items-center justify-between text-[12px]'>
-            <p className='mt-8 lg:mt-0'>© Copyrights <b className='text-blue'>ZIYOLI.UZ</b> 2019 UZCMS</p>
+          <div className='bg-black md:bg-transparent lg:py-8 py-5 flex flex-col-reverse lg:flex-row items-center justify-center text-[12px]'>
+            {/* <p className='mt-8 lg:mt-0'>© Copyrights <b className='text-blue'>ZIYOLI.UZ</b> 2019 UZCMS</p> */}
             <ul className='flex justify-center flex-wrap'>
               {footer_bottom_links.map((link, i) => (
                 <li key={i}>

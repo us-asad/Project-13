@@ -38,13 +38,10 @@ export default function Navbar() {
         <div className='custom-container flex justify-between'>
           <div className={`pr-[30px] pl-[20px] mt-[-27px] relative min-w-[200px] max-h-[77px] text-center ${beforeItemClassNames} before:bottom-[1px] before:-right-[6px] ${scrollY < changeNum ? "skew-x-[25deg] nav-item-gradient-bg" : "before:hidden !mt-0"}`}>
             <Link href="/">
-              <a className={`${scrollY < changeNum ? "skew-x-[-25deg] h-[77px]" : "h-full"} w-full flex items-center`}>
-                <Image
-                  src="/logo.png"
-                  alt="Andijon vxtb"
-                  width={scrollY > changeNum ? 270 : 250}
-                  height={scrollY > changeNum ? 40 : 70}
-                />
+              <a className={`${scrollY < changeNum ? "skew-x-[-25deg] h-[77px]" : "h-full !flex-row gap-2"} text-xl w-full flex flex-col justify-center items-center`}>
+                Navoiy viloyati Navbahor tumani
+                <br />
+                <span className="text-blue">Xalq talimi</span>
               </a>
             </Link>
           </div>
