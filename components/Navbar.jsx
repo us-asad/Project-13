@@ -38,9 +38,8 @@ export default function Navbar() {
         <div className='custom-container flex justify-between'>
           <div className={`pr-[30px] pl-[20px] mt-[-27px] relative min-w-[200px] max-h-[77px] text-center ${beforeItemClassNames} before:bottom-[1px] before:-right-[6px] ${scrollY < changeNum ? "skew-x-[25deg] nav-item-gradient-bg" : "before:hidden !mt-0"}`}>
             <Link href="/">
-              <a className={`${scrollY < changeNum ? "skew-x-[-25deg] h-[77px]" : "h-full !flex-row gap-2"} text-xl w-full flex flex-col justify-center items-center`}>
-                Navoiy viloyati Navbahor tumani
-                <br />
+              <a className={`${scrollY < changeNum ? "skew-x-[-25deg] h-[77px]" : "h-full"} text-xl w-full flex space-x-3 font-bold justify-center items-center`}>
+                <span>Navoiy viloyati</span>
                 <span className="text-blue">Xalq talimi</span>
               </a>
             </Link>
@@ -109,7 +108,7 @@ export default function Navbar() {
                 <ImHome3 className='text-[25px]' />
               </a>
             </Link>
-            <h2 className='word whitespace-nowrap text-center font-bold text-[24px]'>ANDIJONVXTB UZ</h2>
+            <h2 className='word whitespace-nowrap text-center font-bold text-[24px]'>NAVOIYVXTB UZ</h2>
             <button
               onClick={() => showMenu(!openMenu)}
               className="h-full px-3"

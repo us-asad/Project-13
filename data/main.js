@@ -1,18 +1,18 @@
 export const social = [
   {
-    url: "https://www.facebook.com/ANDIJONVXTBUZ",
+    url: "https://www.facebook.com/NavoiyVXTBUZ",
     icon: "facebook"
   },
   {
-    url: "https://www.facebook.com/ANDIJONVXTBUZ",
+    url: "https://www.facebook.com/NavoiyVXTBUZ",
     icon: "telegram"
   },
   {
-    url: "https://www.facebook.com/ANDIJONVXTBUZ",
+    url: "https://www.facebook.com/NavoiyVXTBUZ",
     icon: "instagram"
   },
   {
-    url: "https://www.facebook.com/ANDIJONVXTBUZ",
+    url: "https://www.facebook.com/NavoiyVXTBUZ",
     icon: "youtube"
   }
 ];
@@ -197,7 +197,7 @@ export const menu_items = [
 export const recent_post = {
   image: "/recent-post.jpg",
   title: "Biz ingliz tilini o'rganamiz",
-  content: "Andijon viloyati Marhamat tumani 35-maktabda,Muhtaram Prezidentimiz tomonidan ilgari surilgan g'oyaning,1-tashabbus ijrosini taminlash maqsadida o'quvchi yoshlarni bo'sh vaqtlsrini mazmunli tashkil etish' Yoz o'tmoqda-soz' shiori ostida bolalar yozgi ta'tilni maroqli o'tkazmoqdalar. Unda ingliz to'garak a'zolari faol qatnashmoqdalar va maroqli dam olmoqdalar To'garak rahbari:D.Abdullayeva.",
+  content: "Navoiy viloyati Marhamat tumani 35-maktabda,Muhtaram Prezidentimiz tomonidan ilgari surilgan g'oyaning,1-tashabbus ijrosini taminlash maqsadida o'quvchi yoshlarni bo'sh vaqtlsrini mazmunli tashkil etish' Yoz o'tmoqda-soz' shiori ostida bolalar yozgi ta'tilni maroqli o'tkazmoqdalar. Unda ingliz to'garak a'zolari faol qatnashmoqdalar va maroqli dam olmoqdalar To'garak rahbari:D.Abdullayeva.",
   slug: "we_will_learn_english",
   category: {
     slug: "lessons",
@@ -265,7 +265,7 @@ export const recent_posts = [
     title: "We will learn english",
     views: 0,
     time: "09:32:12",
-    content: "Andijon viloyati Marhamat tumani 35-maktabda,Muhtaram Prezidentimiz tomonidan ilgari surilgan g'oyaning,1-tashabbus ijrosini taminlash maqsadida o'quvchi yoshlarni bo'sh vaqtlsrini mazmunli tashkil etish'Yoz o'tmoqda-soz' shiori ostida bolalar yozgi ta'tilni maroqli o'tkazmoqdalar. Unda ingliz to'g ...",
+    content: "Navoiy viloyati Marhamat tumani 35-maktabda,Muhtaram Prezidentimiz tomonidan ilgari surilgan g'oyaning,1-tashabbus ijrosini taminlash maqsadida o'quvchi yoshlarni bo'sh vaqtlsrini mazmunli tashkil etish'Yoz o'tmoqda-soz' shiori ostida bolalar yozgi ta'tilni maroqli o'tkazmoqdalar. Unda ingliz to'g ...",
     author: "Toshmat Eshmatov",
     category: {
       slug: "lessons",
@@ -280,7 +280,7 @@ export const recent_posts = [
     title: "We will learn english",
     views: 0,
     time: "09:32:12",
-    content: "Andijon viloyati Marhamat tumani 35-maktabda,Muhtaram Prezidentimiz tomonidan ilgari surilgan g'oyaning,1-tashabbus ijrosini taminlash maqsadida o'quvchi yoshlarni bo'sh vaqtlsrini mazmunli tashkil etish'Yoz o'tmoqda-soz' shiori ostida bolalar yozgi ta'tilni maroqli o'tkazmoqdalar. Unda ingliz to'g ...",
+    content: "Navoiy viloyati Marhamat tumani 35-maktabda,Muhtaram Prezidentimiz tomonidan ilgari surilgan g'oyaning,1-tashabbus ijrosini taminlash maqsadida o'quvchi yoshlarni bo'sh vaqtlsrini mazmunli tashkil etish'Yoz o'tmoqda-soz' shiori ostida bolalar yozgi ta'tilni maroqli o'tkazmoqdalar. Unda ingliz to'g ...",
     author: "Toshmat Eshmatov",
     category: {
       slug: "lessons",
@@ -295,7 +295,7 @@ export const recent_posts = [
     title: "We will learn english",
     views: 0,
     time: "09:32:12",
-    content: "Andijon viloyati Marhamat tumani 35-maktabda,Muhtaram Prezidentimiz tomonidan ilgari surilgan g'oyaning,1-tashabbus ijrosini taminlash maqsadida o'quvchi yoshlarni bo'sh vaqtlsrini mazmunli tashkil etish'Yoz o'tmoqda-soz' shiori ostida bolalar yozgi ta'tilni maroqli o'tkazmoqdalar. Unda ingliz to'g ...",
+    content: "Navoiy viloyati Marhamat tumani 35-maktabda,Muhtaram Prezidentimiz tomonidan ilgari surilgan g'oyaning,1-tashabbus ijrosini taminlash maqsadida o'quvchi yoshlarni bo'sh vaqtlsrini mazmunli tashkil etish'Yoz o'tmoqda-soz' shiori ostida bolalar yozgi ta'tilni maroqli o'tkazmoqdalar. Unda ingliz to'g ...",
     author: "Toshmat Eshmatov",
     category: {
       slug: "lessons",
@@ -310,7 +310,7 @@ export const recent_posts = [
     title: "We will learn english",
     views: 0,
     time: "09:32:12",
-    content: "Andijon viloyati Marhamat tumani 35-maktabda,Muhtaram Prezidentimiz tomonidan ilgari surilgan g'oyaning,1-tashabbus ijrosini taminlash maqsadida o'quvchi yoshlarni bo'sh vaqtlsrini mazmunli tashkil etish'Yoz o'tmoqda-soz' shiori ostida bolalar yozgi ta'tilni maroqli o'tkazmoqdalar. Unda ingliz to'g ...",
+    content: "Navoiy viloyati Marhamat tumani 35-maktabda,Muhtaram Prezidentimiz tomonidan ilgari surilgan g'oyaning,1-tashabbus ijrosini taminlash maqsadida o'quvchi yoshlarni bo'sh vaqtlsrini mazmunli tashkil etish'Yoz o'tmoqda-soz' shiori ostida bolalar yozgi ta'tilni maroqli o'tkazmoqdalar. Unda ingliz to'g ...",
     author: "Toshmat Eshmatov",
     category: {
       slug: "lessons",
@@ -325,7 +325,7 @@ export const recent_posts = [
     title: "We will learn english",
     views: 0,
     time: "09:32:12",
-    content: "Andijon viloyati Marhamat tumani 35-maktabda,Muhtaram Prezidentimiz tomonidan ilgari surilgan g'oyaning,1-tashabbus ijrosini taminlash maqsadida o'quvchi yoshlarni bo'sh vaqtlsrini mazmunli tashkil etish'Yoz o'tmoqda-soz' shiori ostida bolalar yozgi ta'tilni maroqli o'tkazmoqdalar. Unda ingliz to'g ...",
+    content: "Navoiy viloyati Marhamat tumani 35-maktabda,Muhtaram Prezidentimiz tomonidan ilgari surilgan g'oyaning,1-tashabbus ijrosini taminlash maqsadida o'quvchi yoshlarni bo'sh vaqtlsrini mazmunli tashkil etish'Yoz o'tmoqda-soz' shiori ostida bolalar yozgi ta'tilni maroqli o'tkazmoqdalar. Unda ingliz to'g ...",
     author: "Toshmat Eshmatov",
     category: {
       slug: "lessons",
@@ -340,7 +340,7 @@ export const recent_posts = [
     title: "We will learn english",
     views: 0,
     time: "09:32:12",
-    content: "Andijon viloyati Marhamat tumani 35-maktabda,Muhtaram Prezidentimiz tomonidan ilgari surilgan g'oyaning,1-tashabbus ijrosini taminlash maqsadida o'quvchi yoshlarni bo'sh vaqtlsrini mazmunli tashkil etish'Yoz o'tmoqda-soz' shiori ostida bolalar yozgi ta'tilni maroqli o'tkazmoqdalar. Unda ingliz to'g ...",
+    content: "Navoiy viloyati Marhamat tumani 35-maktabda,Muhtaram Prezidentimiz tomonidan ilgari surilgan g'oyaning,1-tashabbus ijrosini taminlash maqsadida o'quvchi yoshlarni bo'sh vaqtlsrini mazmunli tashkil etish'Yoz o'tmoqda-soz' shiori ostida bolalar yozgi ta'tilni maroqli o'tkazmoqdalar. Unda ingliz to'g ...",
     author: "Toshmat Eshmatov",
     category: {
       slug: "lessons",
@@ -355,7 +355,7 @@ export const recent_posts = [
     title: "We will learn english",
     views: 0,
     time: "09:32:12",
-    content: "Andijon viloyati Marhamat tumani 35-maktabda,Muhtaram Prezidentimiz tomonidan ilgari surilgan g'oyaning,1-tashabbus ijrosini taminlash maqsadida o'quvchi yoshlarni bo'sh vaqtlsrini mazmunli tashkil etish'Yoz o'tmoqda-soz' shiori ostida bolalar yozgi ta'tilni maroqli o'tkazmoqdalar. Unda ingliz to'g ...",
+    content: "Navoiy viloyati Marhamat tumani 35-maktabda,Muhtaram Prezidentimiz tomonidan ilgari surilgan g'oyaning,1-tashabbus ijrosini taminlash maqsadida o'quvchi yoshlarni bo'sh vaqtlsrini mazmunli tashkil etish'Yoz o'tmoqda-soz' shiori ostida bolalar yozgi ta'tilni maroqli o'tkazmoqdalar. Unda ingliz to'g ...",
     author: "Toshmat Eshmatov",
     category: {
       slug: "lessons",
@@ -370,7 +370,7 @@ export const recent_posts = [
     title: "We will learn english",
     views: 0,
     time: "09:32:12",
-    content: "Andijon viloyati Marhamat tumani 35-maktabda,Muhtaram Prezidentimiz tomonidan ilgari surilgan g'oyaning,1-tashabbus ijrosini taminlash maqsadida o'quvchi yoshlarni bo'sh vaqtlsrini mazmunli tashkil etish'Yoz o'tmoqda-soz' shiori ostida bolalar yozgi ta'tilni maroqli o'tkazmoqdalar. Unda ingliz to'g ...",
+    content: "Navoiy viloyati Marhamat tumani 35-maktabda,Muhtaram Prezidentimiz tomonidan ilgari surilgan g'oyaning,1-tashabbus ijrosini taminlash maqsadida o'quvchi yoshlarni bo'sh vaqtlsrini mazmunli tashkil etish'Yoz o'tmoqda-soz' shiori ostida bolalar yozgi ta'tilni maroqli o'tkazmoqdalar. Unda ingliz to'g ...",
     author: "Toshmat Eshmatov",
     category: {
       slug: "lessons",
@@ -385,7 +385,7 @@ export const recent_posts = [
     title: "We will learn english",
     views: 0,
     time: "09:32:12",
-    content: "Andijon viloyati Marhamat tumani 35-maktabda,Muhtaram Prezidentimiz tomonidan ilgari surilgan g'oyaning,1-tashabbus ijrosini taminlash maqsadida o'quvchi yoshlarni bo'sh vaqtlsrini mazmunli tashkil etish'Yoz o'tmoqda-soz' shiori ostida bolalar yozgi ta'tilni maroqli o'tkazmoqdalar. Unda ingliz to'g ...",
+    content: "Navoiy viloyati Marhamat tumani 35-maktabda,Muhtaram Prezidentimiz tomonidan ilgari surilgan g'oyaning,1-tashabbus ijrosini taminlash maqsadida o'quvchi yoshlarni bo'sh vaqtlsrini mazmunli tashkil etish'Yoz o'tmoqda-soz' shiori ostida bolalar yozgi ta'tilni maroqli o'tkazmoqdalar. Unda ingliz to'g ...",
     author: "Toshmat Eshmatov",
     category: {
       slug: "lessons",
@@ -400,7 +400,7 @@ export const recent_posts = [
     title: "We will learn english",
     views: 0,
     time: "09:32:12",
-    content: "Andijon viloyati Marhamat tumani 35-maktabda,Muhtaram Prezidentimiz tomonidan ilgari surilgan g'oyaning,1-tashabbus ijrosini taminlash maqsadida o'quvchi yoshlarni bo'sh vaqtlsrini mazmunli tashkil etish'Yoz o'tmoqda-soz' shiori ostida bolalar yozgi ta'tilni maroqli o'tkazmoqdalar. Unda ingliz to'g ...",
+    content: "Navoiy viloyati Marhamat tumani 35-maktabda,Muhtaram Prezidentimiz tomonidan ilgari surilgan g'oyaning,1-tashabbus ijrosini taminlash maqsadida o'quvchi yoshlarni bo'sh vaqtlsrini mazmunli tashkil etish'Yoz o'tmoqda-soz' shiori ostida bolalar yozgi ta'tilni maroqli o'tkazmoqdalar. Unda ingliz to'g ...",
     author: "Toshmat Eshmatov",
     category: {
       slug: "lessons",
@@ -415,7 +415,7 @@ export const recent_posts = [
     title: "We will learn english",
     views: 0,
     time: "09:32:12",
-    content: "Andijon viloyati Marhamat tumani 35-maktabda,Muhtaram Prezidentimiz tomonidan ilgari surilgan g'oyaning,1-tashabbus ijrosini taminlash maqsadida o'quvchi yoshlarni bo'sh vaqtlsrini mazmunli tashkil etish'Yoz o'tmoqda-soz' shiori ostida bolalar yozgi ta'tilni maroqli o'tkazmoqdalar. Unda ingliz to'g ...",
+    content: "Navoiy viloyati Marhamat tumani 35-maktabda,Muhtaram Prezidentimiz tomonidan ilgari surilgan g'oyaning,1-tashabbus ijrosini taminlash maqsadida o'quvchi yoshlarni bo'sh vaqtlsrini mazmunli tashkil etish'Yoz o'tmoqda-soz' shiori ostida bolalar yozgi ta'tilni maroqli o'tkazmoqdalar. Unda ingliz to'g ...",
     author: "Toshmat Eshmatov",
     category: {
       slug: "lessons",
@@ -430,7 +430,7 @@ export const recent_posts = [
     title: "We will learn english",
     views: 0,
     time: "09:32:12",
-    content: "Andijon viloyati Marhamat tumani 35-maktabda,Muhtaram Prezidentimiz tomonidan ilgari surilgan g'oyaning,1-tashabbus ijrosini taminlash maqsadida o'quvchi yoshlarni bo'sh vaqtlsrini mazmunli tashkil etish'Yoz o'tmoqda-soz' shiori ostida bolalar yozgi ta'tilni maroqli o'tkazmoqdalar. Unda ingliz to'g ...",
+    content: "Navoiy viloyati Marhamat tumani 35-maktabda,Muhtaram Prezidentimiz tomonidan ilgari surilgan g'oyaning,1-tashabbus ijrosini taminlash maqsadida o'quvchi yoshlarni bo'sh vaqtlsrini mazmunli tashkil etish'Yoz o'tmoqda-soz' shiori ostida bolalar yozgi ta'tilni maroqli o'tkazmoqdalar. Unda ingliz to'g ...",
     author: "Toshmat Eshmatov",
     category: {
       slug: "lessons",
@@ -580,25 +580,25 @@ export const footer_social = [
   },
   {
     name: "Telegram",
-    link: "https://www.facebook.com/ANDIJONVXTBUZ",
+    link: "https://www.facebook.com/NavoiyVXTBUZ",
     icon: "telegram",
     color: "#0e76a8"
   },
   {
     name: "ANDROIT",
-    link: "https://andijonvxtb.uz",
+    link: "https://Navoiyvxtb.uz",
     icon: "puzzle",
     color: "#00acee"
   },
   {
     name: "facebook",
-    link: "https://www.facebook.com/ANDIJONVXTBUZ",
+    link: "https://www.facebook.com/NavoiyVXTBUZ",
     icon: "facebook",
     color: "#3b5998"
   },
   {
     name: "Instagram",
-    link: "https://www.instagram.com/andijonviloyatixtb",
+    link: "https://www.instagram.com/Navoiyviloyatixtb",
     icon: "instagram",
     color: "#dd4b39"
   },
@@ -1038,7 +1038,7 @@ export const post = {
     url: "/default-video.mp4",
   },
   title: "We Will Learn English!",
-  content: "Andijon viloyati Jalaquduq tumani 2-umumta'lim maktabida o'quvchilar o'rtasida davomat,kiyinish madaniyati, jinoyatchilik va huquqbuzarliklarni ,diniy ekstremizmni oldini olish kabi masalalar yuzasidan yig'ilish o'tkazildi. Yig'ilishga tuman T va EQKB xodimlari N.Ergashev , R.To'ychiyev va psixolog inspektor A.Xasanovlar tashrif buyurdilar.",
+  content: "Navoiy viloyati Jalaquduq tumani 2-umumta'lim maktabida o'quvchilar o'rtasida davomat,kiyinish madaniyati, jinoyatchilik va huquqbuzarliklarni ,diniy ekstremizmni oldini olish kabi masalalar yuzasidan yig'ilish o'tkazildi. Yig'ilishga tuman T va EQKB xodimlari N.Ergashev , R.To'ychiyev va psixolog inspektor A.Xasanovlar tashrif buyurdilar.",
   date: "9 Apr 2022" 
 }
 

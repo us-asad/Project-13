@@ -16,10 +16,10 @@ export default function HeaderTop() {
             <FaEnvelope />
             <b>Email:</b>
             <a
-              href="mailto:admin@andijonvxtb.uz"
+              href="mailto:navbahoritcenter@gmail.com"
               target="_blank"
               rel="noreferrer"
-            >admin@andijonvxtb.uz</a>
+            >navbahoritcenter@gmail.com</a>
           </li>
           <li className={listItemClassNames}>
             <FaPhoneAlt className='text-[12px]' />
@@ -40,8 +40,8 @@ export default function HeaderTop() {
           {social.map(item => (
             <li key={item.icon} className={listItemClassNames}>
               <a
-                href={item.url}
-                target="_blank"
+                href="#"
+                // target="_blank"
                 rel="noreferrer"
               >
                 {{

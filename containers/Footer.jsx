@@ -18,8 +18,8 @@ export default function Footer() {
     <footer className='text-white'>
       <div className='hidden lg:block bg-black pt-[10px]'>
         <div className='custom-container flex justify-between '>
-          <h2 className='font-oswald font-light text-[22px] pb-[10px] align-center text-gray-400'><b className='text-blue font-black font-sans'>ANDIJONVXTB</b> MONITORING SISTEMASI BILAN BOG`LANISH.</h2>
-          <a
+          <h2 className='font-oswald font-light text-[22px] pb-[10px] align-center text-gray-400'><b className='text-blue font-black font-sans'>NAVOIYVXTB</b> MONITORING SISTEMASI BILAN BOG`LANISH.</h2>
+          {/* <a
             href="https://t.me/maktablarbot"
             target="_blank"
             rel="noreferrer"
@@ -27,7 +27,7 @@ export default function Footer() {
             style={{ backgroundImage: 'linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 86%, rgba(0, 0, 0, 0.27) 100%)' }}
           >
             <span className='relative z-10 skew-x-[-25deg] block font-extrabold tracking-wider'>@MAKTABLARBOT</span>
-          </a>
+          </a> */}
         </div>
       </div>
       <div className='md:bg-[url(/footer-bg.png)] bg-repeat-x bg-left-bottom bg-[#111] text-[#888]'>
@@ -40,8 +40,8 @@ export default function Footer() {
                 {footer_social.map((item, i) => (
                   <li key={i}>
                     <a
-                      href={item.link}
-                      target="_blank"
+                      href="#"
+                      // target="_blank"
                       rel="noreferrer"
                       className='group h-[30px] bg-[#0b0b0b] flex items-center'
                     >
@@ -72,17 +72,17 @@ export default function Footer() {
               <h3 className='font-oswald text-[22px] font-light mb-[45px]'>ALOQA UCHUN</h3>
               <p className='text-[14px] mb-[10] pb-5 border-b border-b-[#ffffff0d]'>
                 <MdLocationPin className='inline-block text-[16px] mr-1' />
-                <span className='inline align-middle'>Andijon viloyat Andijon shahar Pirmuhamedov ko`cha 1 uy</span>
+                <span className='inline align-middle'>Navoiy viloyat Navoiy tuman Pirmuhamedov ko`cha 1 uy</span>
               </p>
               <div>
                 <a
-                  href="mailto:admin@andijonvxtb.uz"
+                  href="mailto:navbahoritcenter@gmail.com"
                   target="_blank"
                   rel="noreferrer"
                   className='flex items-center my-[13px]'
                 >
                   <FaEnvelope className='text-[13px]' />
-                  <span className='ml-2'>admin@andijonvxtb.uz</span>
+                  <span className='ml-2'>navbahoritcenter@gmail.com</span>
                 </a>
                 <a
                   href="tel:+998742282669"
