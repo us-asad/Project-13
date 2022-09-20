@@ -39,7 +39,7 @@ export default function Navbar() {
           <div className={`pr-[30px] pl-[20px] mt-[-27px] relative min-w-[200px] max-h-[77px] text-center ${beforeItemClassNames} before:bottom-[1px] before:-right-[6px] ${scrollY < changeNum ? "skew-x-[25deg] nav-item-gradient-bg" : "before:hidden !mt-0"}`}>
             <Link href="/">
               <a className={`${scrollY < changeNum ? "skew-x-[-25deg] h-[77px]" : "h-full"} text-xl w-full flex space-x-3 font-bold justify-center items-center`}>
-                <span>Navoiy viloyati</span>
+                <span>Navbahor tumani</span>
                 <span className="text-blue">Xalq talimi</span>
               </a>
             </Link>
@@ -48,7 +48,7 @@ export default function Navbar() {
             {nav_items.map((item, i) => (
               <li
                 key={i}
-                className={`group pb-[26px] relative text-[14px] h-[70px] duration-200 ${openSearch && "opacity-0 pointer-events-none"} ${scrollY > changeNum && "!p-0 h-[52px]"}`}
+                className={`group pb-[26px] relative text-[14px] h-[70px] duration-200 ${openSearch && "hidden"} ${scrollY > changeNum && "!p-0 h-[52px]"}`}
               >
                 <Link href={item.link}>
                   <a className={`z-[2] relative block h-full ${beforeItemClassNames} before:bottom-[-4px] before:right-[-17px] after:inline-block after:border-b-[#adadad] after:border-r-2 after:border-b-4 after:border-l-4 after:absolute after:-top-[2px] after:-left-[16px] ${scrollY > changeNum && "before:hidden after:hidden"}`}>

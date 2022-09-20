@@ -18,7 +18,7 @@ export default function Footer() {
     <footer className='text-white'>
       <div className='hidden lg:block bg-black pt-[10px]'>
         <div className='custom-container flex justify-between '>
-          <h2 className='font-oswald font-light text-[22px] pb-[10px] align-center text-gray-400'><b className='text-blue font-black font-sans'>NAVOIYVXTB</b> MONITORING SISTEMASI BILAN BOG`LANISH.</h2>
+          <h2 className='font-oswald font-light text-[22px] pb-[10px] align-center text-gray-400'><b className='text-blue font-black font-sans'>NAVBAHOR</b> MONITORING SISTEMASI BILAN BOG`LANISH.</h2>
           {/* <a
             href="https://t.me/maktablarbot"
             target="_blank"
@@ -72,7 +72,7 @@ export default function Footer() {
               <h3 className='font-oswald text-[22px] font-light mb-[45px]'>ALOQA UCHUN</h3>
               <p className='text-[14px] mb-[10] pb-5 border-b border-b-[#ffffff0d]'>
                 <MdLocationPin className='inline-block text-[16px] mr-1' />
-                <span className='inline align-middle'>Navoiy viloyat Navoiy tuman Pirmuhamedov ko`cha 1 uy</span>
+                <span className='inline align-middle'>Navoiy viloyat Navbahor tuman Pirmuhamedov ko`cha 1 uy</span>
               </p>
               <div>
                 <a
